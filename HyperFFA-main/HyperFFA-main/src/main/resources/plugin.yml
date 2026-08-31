@@ -1,0 +1,85 @@
+name: HyperFFA
+version: '${project.version}'
+main: com.hyperffa.kit.HyperFFAKitPlugin
+api-version: '1.21'
+folia-supported: true
+softdepend: [PlaceholderAPI]
+prefix: HyperFFA
+authors: [HyperTeam]
+description: Standalone High-Performance Kit System, Stats, Killstreak, Leaderboards & Scoreboard for Paper & Folia 1.21.x
+
+commands:
+  kit:
+    description: Open the Kit Room menu or load a kit slot.
+    aliases: [kits, kitroom]
+    usage: /kit [mode] [slot]
+  kit1:
+    description: Directly load Kit slot #1
+  kit2:
+    description: Directly load Kit slot #2
+  kit3:
+    description: Directly load Kit slot #3
+  kit4:
+    description: Directly load Kit slot #4
+  kit5:
+    description: Directly load Kit slot #5
+  kit6:
+    description: Directly load Kit slot #6
+  kitadmin:
+    description: Admin commands for managing PvP modes, premade kits, and item room categories.
+    permission: hyperkit.admin
+    usage: /kitadmin <mode|setpremade|setcategory|give|reload>
+  killstreak:
+    description: View your current and best killstreak.
+    aliases: [ks, chuoi]
+    usage: /killstreak
+  stats:
+    description: View your player statistics.
+    aliases: [profile, thongke]
+    usage: /stats [player]
+  topkills:
+    description: View Top 10 Kills leaderboard.
+    aliases: [topkill, topk]
+  topdeaths:
+    description: View Top 10 Deaths leaderboard.
+    aliases: [topdeath, topd]
+  toptime:
+    description: View Top 10 Playtime leaderboard.
+    aliases: [topplaytime, topt]
+  discord:
+    description: Get the server Discord invite link.
+  rtpq:
+    description: Join the FFA match queue.
+    aliases: [queue]
+
+permissions:
+  hyperkit.admin:
+    description: Full administrative access to HyperFFA
+    default: op
+  hyperkit.use:
+    description: Access to player kit commands
+    default: true
+  hyperkit.slot.1:
+    description: Access to Default Slot 1
+    default: true
+  hyperkit.slot.2:
+    description: Access to Default Slot 2
+    default: true
+  hyperkit.slot.3:
+    description: Access to Default Slot 3
+    default: true
+  hyperkit.vip:
+    description: Access to all VIP kit slots (Slots 4, 5, 6)
+    default: op
+  hyperkit.premium:
+    description: Access to all Premium kit slots (Slots 4, 5, 6)
+    default: op
+  hyperkit.slot.4:
+    description: Access to Premium Slot 1 (Slot 4)
+    default: op
+  hyperkit.slot.5:
+    description: Access to Premium Slot 2 (Slot 5)
+    default: op
+  hyperkit.slot.6:
+    description: Access to Premium Slot 3 (Slot 6)
+    default: op

@@ -1,0 +1,55 @@
+# =========================================================
+# HyperFFA / HyperKit - Messages File
+# Supports Minecraft colors & MiniMessage
+# =========================================================
+
+prefix: "<gradient:#3b82f6:#60a5fa><bold>HYPER-KIT</bold></gradient> <dark_gray>»</dark_gray> "
+
+# General & System Messages
+messages:
+  no-permission: "<red>Bạn không có quyền thực hiện hành động này!</red>"
+  player-only: "<red>Lệnh này chỉ có thể thực hiện bởi người chơi!</red>"
+  mode-not-found: "<red>Không tìm thấy chế độ PvP mang tên <yellow><mode></yellow>!</red>"
+  slot-locked: "<red>You don't have access to this kit!</red>"
+  slot-empty: "<red>Kit <slot> chưa được cài đặt! Hãy Chuột Phải vào ô kit để chỉnh sửa và lưu bố cục.</red>"
+  kit-loaded-template: "<green>Bạn đã tải Kit mẫu.</green>"
+  kit-loaded: "<green>Đã nạp thành công bộ kit <yellow><slot_name></yellow> của chế độ <aqua><mode></aqua>!</green>"
+  kit-saved: "<green>Đã lưu bố cục trang bị vào <yellow><slot_name></yellow> thành công!</green>"
+  kit-cleared: "<yellow>Đã xóa sạch vật phẩm trong giao diện chỉnh sửa kit!</yellow>"
+  kit-imported-from-inv: "<green>Đã nạp toàn bộ trang bị từ người bạn vào giao diện chỉnh sửa kit!</green>"
+  premade-applied: "<green>Đã nạp bộ trang bị mẫu <yellow><premade_name></yellow> vào túi đồ chỉnh sửa!</green>"
+  item-added: "<green>Đã thêm <yellow><item></yellow> vào túi đồ chỉnh sửa!</green>"
+  item-room-refilled: "<green>Đã làm đầy lại toàn bộ vật phẩm trong kho đồ (Item Room)!</green>"
+  action-blocked-in-editor: "<red>Hành động này bị cấm khi đang ở chế độ chỉnh sửa Kit!</red>"
+
+# Killstreak & Combat Messages
+combat:
+  killstreak-status: "<white>Chuỗi hiện tại: <yellow><current></yellow> | Chuỗi tốt nhất: <yellow><best></yellow></white>"
+  killstreak-broadcast: "<red><player></red> <yellow>vừa giành được chuỗi</yellow> <red><streak></red> <yellow>kills</yellow>"
+  combat-log-penalty: "<red><player></red> <yellow>bị phạt do out server khi đang combat</yellow>"
+  pvp-death: "<dark_red>💀</dark_red> <white><victim></white> <gray>was killed by</gray> <green>🗡</green> <white><killer></white> <light_purple>[<hp>❤]</light_purple>"
+  fall-death: "<dark_red>💀</dark_red> <white><victim></white> <gray>fell down from a high place!</gray>"
+  generic-death: "<dark_red>💀</dark_red> <white><victim></white> <gray>died!</gray>"
+  queue-join: "<green><player></green> <gray>tham gia queue, dùng lệnh</gray> <yellow>/rtpq</yellow> <gray>để vào</gray>"
+  discord-link: "<blue><bold>DISCORD</bold></blue> <gray>(<click:open_url:'<url>'><hover:show_text:'<yellow>Nhấn để tham gia Discord</yellow>'><u>/discord</u></click>)</gray>"
+
+# Leaderboard Display Messages
+leaderboard:
+  kills-header: "<gold>⚔</gold> <yellow><bold>TOP KILLS</bold></yellow> <gold>⚔</gold>"
+  deaths-header: "<dark_red>💀</dark_red> <red><bold>TOP DEATH</bold></red> <dark_red>💀</dark_red>"
+  playtime-header: "<dark_aqua>🕒</dark_aqua> <aqua><bold>PLAY TIME</bold></aqua> <dark_aqua>🕒</dark_aqua>"
+  line-entry: "<yellow>#<rank></yellow> <dark_gray>|</dark_gray> <white><player></white><dark_gray>:</dark_gray> <color><value></color>"
+  player-rank-kills: "<yellow>#-1</yellow> <dark_gray>|</dark_gray> <white><player></white><dark_gray>:</dark_gray> <yellow><value></yellow>"
+  player-rank-deaths: "<red>#-1</red> <dark_gray>|</dark_gray> <white><player></white><dark_gray>:</dark_gray> <red><value></red>"
+  player-rank-time: "<aqua>#-1</aqua> <dark_gray>|</dark_gray> <white><player></white><dark_gray>:</dark_gray> <aqua><value></aqua>"
+
+# Admin Messages
+admin:
+  mode-created: "<green>Đã tạo thành công PvP Mode mới: <aqua><mode></aqua>!</green>"
+  mode-deleted: "<yellow>Đã xóa PvP Mode: <aqua><mode></aqua>!</yellow>"
+  mode-already-exists: "<red>PvP Mode <yellow><mode></yellow> đã tồn tại từ trước!</red>"
+  premade-saved: "<green>Đã lưu toàn bộ túi đồ hiện tại của bạn thành Kit Mẫu <yellow><premade_name></yellow> cho mode <aqua><mode></aqua>!</green>"
+  category-saved: "<green>Đã lưu toàn bộ vật phẩm trong túi đồ của bạn vào danh mục <yellow><category></yellow> của mode <aqua><mode></aqua>!</green>"
+  give-success: "<green>Đã nạp kit slot <yellow><slot></yellow> của mode <aqua><mode></aqua> cho người chơi <white><player></white>!</green>"
+  target-not-found: "<red>Không tìm thấy người chơi mục tiêu online!</red>"
+  reloaded: "<green>Đã tải lại toàn bộ cấu hình, ngôn ngữ và cơ sở dữ liệu thành công!</green>"

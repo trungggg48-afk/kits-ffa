@@ -1,0 +1,65 @@
+# =========================================================
+# HyperFFA / HyperKit - GUI Configuration
+# Matches in-game screenshots exactly
+# =========================================================
+
+titles:
+  kit-room: "KIT ROOM"
+  kit-editor: "KIT EDITOR"
+  item-room: "ITEM ROOM"
+  premade-kits: "PREMADE KITS"
+
+kit-room:
+  slots:
+    default-prefix: "<green>Default slot #<slot></green>"
+    premium-prefix: "<yellow>Premium slot #<slot></yellow>"
+    unlocked-lore:
+      - "<gold>L-CLICK:</gold> <white>LOAD KIT</white>"
+      - "<blue>R-CLICK:</blue> <white>EDIT KIT</white>"
+    locked-lore:
+      - "<red>You don't have access to this kit!</red>"
+
+  tools:
+    clear-inv:
+      name: "<red>Clear Inventory</red>"
+      material: "TNT"
+      slot: 39
+    item-room:
+      name: "<aqua>Item Room</aqua>"
+      material: "BARREL"
+      slot: 40
+    premade-kit:
+      name: "<green>Premade Kit</green>"
+      material: "WRITABLE_BOOK"
+      slot: 41
+
+item-room:
+  tabs:
+    refill:
+      name: "<light_purple>Refill</light_purple>"
+      material: "AMETHYST_SHARD"
+      slot: 45
+    gear:
+      name: "<aqua>Gear</aqua>"
+      material: "DIAMOND_SWORD"
+      slot: 47
+    potions:
+      name: "<aqua>Potions</aqua>"
+      material: "SPLASH_POTION"
+      slot: 48
+    consumables:
+      name: "<yellow>Consumables</yellow>"
+      material: "TOTEM_OF_UNDYING"
+      slot: 49
+    block:
+      name: "<green>Block</green>"
+      material: "GRASS_BLOCK"
+      slot: 50
+    item:
+      name: "<red>Item</red>"
+      material: "FISHING_ROD"
+      slot: 51
+    explosions:
+      name: "<red>Explosions</red>"
+      material: "TNT"
+      slot: 52

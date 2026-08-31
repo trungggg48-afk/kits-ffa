@@ -1,0 +1,42 @@
+# =========================================================
+# HyperFFA / HyperKit Configuration
+# Paper 1.21.x High-Performance Standalone FFA & Kit Engine
+# =========================================================
+
+# Database Configuration (SQLite via HikariCP)
+database:
+  type: "SQLITE"
+  file: "hyperkit.db"
+  pool:
+    maximum-pool-size: 5
+    minimum-idle: 2
+    connection-timeout: 30000
+    idle-timeout: 600000
+    max-lifetime: 1800000
+
+# General Settings
+settings:
+  default-mode: "sword"
+  max-slots-per-mode: 6
+  default-slots-count: 3
+  auto-save-on-close: true
+  prevent-item-leak: true
+  enable-sounds: true
+  server-ip: "VNSWORD.ASIA"
+  discord-url: "https://discord.gg/vnsword"
+  combat-tag-seconds: 15
+
+# Killstreak Settings
+killstreak:
+  milestones: [5, 10, 15, 20, 25, 30, 50, 100]
+
+# Sound Settings (Modern 1.21 Sound Keys)
+sounds:
+  kit-load: "minecraft:entity.player.levelup"
+  kit-save: "minecraft:block.note_block.bell"
+  kit-clear: "minecraft:item.shield.break"
+  click-success: "minecraft:ui.button.click"
+  click-error: "minecraft:entity.villager.no"
+  open-menu: "minecraft:block.chest.open"
+  kill: "minecraft:entity.experience_orb.pickup"
+  killstreak: "minecraft:ui.toast.challenge_complete"
