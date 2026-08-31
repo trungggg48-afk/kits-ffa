@@ -21,10 +21,11 @@ jobs:
           cache: maven
 
       - name: Build with Maven
+        working-directory: HyperFFA-main/HyperFFA-main
         run: mvn clean package -DskipTests
 
       - name: Upload HyperFFA.jar
         uses: actions/upload-artifact@v4
         with:
           name: HyperFFA
-          path: target/*.jar
+          path: HyperFFA-main/HyperFFA-main/target/*.jar
